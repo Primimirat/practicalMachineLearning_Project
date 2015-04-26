@@ -1,7 +1,7 @@
-setwd("D:\\Dropbox\\R Work\Coursera\\Practical Machine Learning")
+setwd("...")
 training <- read.csv("https://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv", na.strings=c("NA",""), header=TRUE)
 testing <- read.csv("https://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv", na.strings=c("NA",""), header=TRUE)
-#https://rpubs.com/sandrine1551/39319
+
 
 #training <- read.csv("pml-training.csv", na.strings=c("NA",""), header=TRUE)
 #testing <- read.csv("pml-testing.csv", na.strings=c("NA",""), header=TRUE)
